@@ -9,4 +9,10 @@ twitter_username: filitov
 github_username:  Filitov
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks]
+timezone: Asia/Taipei
+encoding: utf-8
+
